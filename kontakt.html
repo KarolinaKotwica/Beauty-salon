@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arizonia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if gte IE 9]
+<style type="text/css">
+.gradient {
+filter: none;
+}
+</style>
+<![endif]-->
+    <title></title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="hamburger"><span class="menu">&#9776;</span></div>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <ul class="nav">
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="uslugi.html">Usługi</a></li>
+                <li><a href="o_nas.html">O nas</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <header class="img_wid">
+            <div class="image_section">Kontakt</div>
+        </header>
+        
+        <section class="contact">
+            <h2>Umów się na wizytę w naszym salonie</h2>
+            <hr />
+            <address>
+                <p>tel: <span class="phone">+48 500 600 700</span></p>
+                <p>ul. Internetowa 14<br />12-345 Warszawa</p>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156388.35438358234!2d20.921111315206414!3d52.23306532129268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1573049844965!5m2!1spl!2spl" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <h2>Umów się przez formularz</h2>
+            <p>Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. </p>
+            <form action="#">
+                <label for="imie">Imię i nazwisko:</label>
+                <input type="text" name="imie" id="imie" value="Twoje imię" onfocus="this.value=''">
+                
+                <label for="email">Twój e-mail:</label>
+                <input type="email" name="email" id="email" value="Twój email" onfocus="this.value=''">
+                
+                <label for="tresc">Treść wiadomości:</label>
+                <textarea name="tresc" id="tresc" cols="30" rows="8" placeholder="Treść wiadomości" onfocus="this.placeholder=''"></textarea>
+                
+                <button type="button">Wyślij</button>
+            </form>
+        </section>
+        
+
+        <footer class="section_color">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <address class="info">
+                <p>Zadzwoń: <span class="phone">+48 500 600 700</span> lub umów się online:</p>
+                <button type="button">Umów wizytę</button>
+            </address>
+        </footer>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
